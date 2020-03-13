@@ -1,0 +1,40 @@
+/* Import Typekit Fonts */
+@import url("https://use.typekit.net/xei8ahc.css");
+
+/* Import Bootstrap */
+@import url("https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css");
+
+/* body {
+  font-family: source-sans-pro, sans-serif;
+  font-weight: 400;
+} */
+p {
+  font-family: paralucent-text, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.2rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: paralucent, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Let's get a little more fancy */
+div.bpmct-container {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+h1.bpmct-title {
+  font-size: 4rem;
+}
+h1.bpmct-title a:hover {
+  text-decoration: none;
+}
