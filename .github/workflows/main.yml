@@ -19,9 +19,12 @@ jobs:
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
+      
+    - name: List Files
+      run: ls
 
     - name: Build Gatsby Site
-      uses: jzweifel/gatsby-cli-github-action@v1.0.0
+      uses: jzweifel/gatsby-cli-github-action@master
       with:
         gatsby-arg: build
     
