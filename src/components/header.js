@@ -5,9 +5,9 @@ import React from "react"
 const Header = ({ siteTitle }) => (
   <header>
     <div>
-      <h1 className="bpmct-title">
+      {/* <h1 className="bpmct-title">
         <Link to="/">{siteTitle}</Link>
-      </h1>
+      </h1> */}
     </div>
   </header>
 )

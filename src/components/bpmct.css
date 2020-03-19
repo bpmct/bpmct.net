@@ -4,11 +4,15 @@
 /* Import Bootstrap */
 @import url("https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css");
 
+/* Import Font Awesome */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/brands.min.css");
+
 /* body {
   font-family: source-sans-pro, sans-serif;
   font-weight: 400;
 } */
-p {
+p,
+li {
   font-family: paralucent-text, sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -30,6 +34,12 @@ h6 {
 div.bpmct-container {
   margin-top: 30px;
   margin-bottom: 30px;
+}
+
+@media (min-width: 576px) {
+  div.bpmct-container {
+    margin-top: 50px;
+  }
 }
 
 h1.bpmct-title {
