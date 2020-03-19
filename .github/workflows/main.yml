@@ -32,6 +32,6 @@ jobs:
         username: ${{ secrets.USERNAME }}
         password: ${{ secrets.PASSWORD }}
         port: ${{ secrets.PORT }}
-        source: "public/*"
+        source: "public/"
         target: "/home/admin/web/bpmct.net/public_html/"
         strip_components: 1
