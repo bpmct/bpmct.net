@@ -112,9 +112,9 @@ const IndexPage = ({ data }) => (
             Blog
           </a>
           &nbsp; | &nbsp;
-          <Link to="https://projectshowcase.me/ben" className="text-muted">
+          <a href="https://ben.services" className="text-muted">
             Portfolio
-          </Link>
+          </a>
           &nbsp; | &nbsp;
           <Link to="/contact" className="text-muted">
             Contact
