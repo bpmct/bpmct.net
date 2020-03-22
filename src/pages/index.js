@@ -26,7 +26,7 @@ const IndexPage = ({ data }) => (
           - studying at:{" "}
           <a href="https://rit.edu" target="_blank" rel="noopener noreferrer">
             <span className="badge badge-warning">
-              🏠 Rochester Institute of Technology
+              <span role="img" aria-label="">🏠</span> Rochester Institute of Technology
             </span>
           </a>
         </p>
