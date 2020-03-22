@@ -36,7 +36,8 @@ module.exports = {
         siteSpeedSampleRate: 10,
         cookieDomain: "bpmct.net",
       },
-    }`gatsby-transformer-sharp`,
+    },
+    `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
