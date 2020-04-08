@@ -38,12 +38,17 @@ jobs:
         source: "public/"
         target: "/home/admin/web/bpmct.net/public_html/"
         strip_components: 1
-
-    - name: Generate a new Twitter Card from home page screenshot :)
-      uses: appleboy/ssh-action@v0.0.2
+      
+    - name: Generate a new Twitter Card from home page screenshot
+      run: "curl https://api.apiflash.com/v1/urltoimage?access_key=${{ secrets.APIFLASH_KEY }}&format=png&fresh=true&full_page=true&height=600&scale_factor=2&url=https%3A%2F%2Fbpmct.net&width=1300 > ./twitter-card.png"
+      
+    - name: Copy Twitter card to site
+      uses: appleboy/scp-action@master
       with:
         host: ${{ secrets.HOST }}
         username: ${{ secrets.USERNAME }}
         password: ${{ secrets.PASSWORD }}
         port: ${{ secrets.PORT }}
-        script: "curl https://api.apiflash.com/v1/urltoimage?access_key=${{ secrets.APIFLASH_KEY }}&format=png&fresh=true&full_page=true&height=600&scale_factor=2&url=https%3A%2F%2Fbpmct.net&width=1300 > /home/admin/web/bpmct.net/public_html/twitter-card.png"
+        source: "./twitter-card.png"
+        target: "/home/admin/web/bpmct.net/public_html/"
+        strip_components: 1
