@@ -10,10 +10,10 @@ const IndexPage = ({ data }) => (
   <Layout>
     <SEO title="Home" />
     <div className="row">
-      <div className="col-sm-4">
+      <div className="col-sm-6 col-md-4">
         <Img fluid={data.image1.childImageSharp.fluid} alt="" />
       </div>
-      <div className="col-sm-6">
+      <div className="col-sm-6 col-md-7">
         <h1 className="bpmct-title">
           <Link to="/">Ben Potter</Link>
         </h1>
@@ -26,7 +26,10 @@ const IndexPage = ({ data }) => (
           - studying at:{" "}
           <a href="https://rit.edu" target="_blank" rel="noopener noreferrer">
             <span className="badge badge-warning">
-              <span role="img" aria-label="">🏠</span> Rochester Institute of Technology
+              <span role="img" aria-label="">
+                🏠
+              </span>{" "}
+              Rochester Institute of Technology
             </span>
           </a>
         </p>
