@@ -46,4 +46,4 @@ jobs:
         username: ${{ secrets.USERNAME }}
         password: ${{ secrets.PASSWORD }}
         port: ${{ secrets.PORT }}
-        script: curl https://api.apiflash.com/v1/urltoimage?access_key=${{ secrets.APIFLASH_KEY }}&format=png&fresh=true&full_page=true&height=600&scale_factor=2&url=https%3A%2F%2Fbpmct.net&width=1300 > /home/admin/web/bpmct.net/public_html/twitter-card.png
+        script: "curl https://api.apiflash.com/v1/urltoimage?access_key=${{ secrets.APIFLASH_KEY }}&format=png&fresh=true&full_page=true&height=600&scale_factor=2&url=https%3A%2F%2Fbpmct.net&width=1300 > /home/admin/web/bpmct.net/public_html/twitter-card.png"
