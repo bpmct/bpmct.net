@@ -40,7 +40,7 @@ jobs:
         strip_components: 1
       
     - name: Generate a new Twitter Card from home page screenshot
-      run: "curl https://api.apiflash.com/v1/urltoimage?access_key=${{ secrets.APIFLASH_KEY }}&format=png&fresh=true&full_page=true&height=600&scale_factor=2&url=https%3A%2F%2Fbpmct.net&width=1300 > ./twitter-card.png"
+      run: "curl \"https://api.apiflash.com/v1/urltoimage?access_key=${{ secrets.APIFLASH_KEY }}&format=png&fresh=true&full_page=true&height=600&scale_factor=2&url=https://bpmct.net/&width=1300\" > ./twitter-card.png"
       
     - name: Copy Twitter card to site
       uses: appleboy/scp-action@master
