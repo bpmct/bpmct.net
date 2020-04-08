@@ -13,7 +13,7 @@ const IndexPage = ({ data }) => (
       <div className="col-sm-6 col-md-4">
         <Img fluid={data.image1.childImageSharp.fluid} alt="" />
       </div>
-      <div className="col-sm-6 col-md-7">
+      <div className="col-sm-6 col-md-8">
         <h1 className="bpmct-title">
           <Link to="/">Ben Potter</Link>
         </h1>
