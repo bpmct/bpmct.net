@@ -8,7 +8,7 @@ import SEO from "../components/seo"
 
 const IndexPage = ({ data }) => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="Hi, I'm Ben Potter" />
     <div className="row">
       <div className="col-sm-6 col-md-4">
         <Img fluid={data.image1.childImageSharp.fluid} alt="" />
