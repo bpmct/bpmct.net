@@ -53,11 +53,15 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           name: `twitter:card`,
-          content: `summary`,
+          content: `summary_large_image`,
         },
         {
           name: `twitter:creator`,
           content: site.siteMetadata.author,
+        },
+        {
+          name: `twitter:image`,
+          content: "https://bpmct.net/twitter-card.png",
         },
         {
           name: `twitter:title`,
