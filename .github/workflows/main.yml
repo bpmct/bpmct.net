@@ -52,3 +52,9 @@ jobs:
         source: "./twitter-card.png"
         target: "/home/admin/web/bpmct.net/public_html/"
         strip_components: 1
+
+    - name: Purge CloudFlare Cache
+      uses: jakejarvis/cloudflare-purge-action@master
+      env:
+        CLOUDFLARE_ZONE: ${{ secrets.CLOUDFLARE_ZONE }}
+        CLOUDFLARE_TOKEN: ${{ secrets.CLOUDFLARE_TOKEN }}
