@@ -19,7 +19,7 @@ const IndexPage = ({ data }) => (
         </h1>
         <p>
           Hey! I'm a developer / digital marketer. I love water polo, surfing,
-          and I'm lifeguarding this summer!
+          and I'm lifeguarding this summer! ⛱
         </p>
         <h4>I do all sorts of work, but I'm currently:</h4>
         <p>
