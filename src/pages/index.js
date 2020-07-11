@@ -34,9 +34,9 @@ const IndexPage = ({ data }) => (
           </a>
         </p>
         <p>
-          - building websites for:{" "}
+          - building platforms for:{" "}
           <a
-            href="https://kuringen.no"
+            href="https://stuff.bpmct.net/Kuringen-Bryggehotell-9b78d4845625483994fca3b22947f947"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -48,7 +48,19 @@ const IndexPage = ({ data }) => (
             </span>
           </a>{" "}
           <a
-            href="https://holeydonuts.shop"
+            href="https://stuff.bpmct.net/RIT-Hangout-0ad032304d684b41957ac776d0191e42"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span className="badge badge-warning">
+              <span role="img" aria-label="">
+                👨‍👩‍👦
+              </span>{" "}
+              RIT Hangout
+            </span>
+          </a>{" "}
+          <a
+            href="https://stuff.bpmct.net/Donut-Delivery-App-d0c4e53dfb824a2b9f8ae00c6b3474c1"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -63,19 +75,7 @@ const IndexPage = ({ data }) => (
         <p>
           - doing social media at:{" "}
           <a
-            href="https://holeydonuts.shop"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <span className="badge badge-dark">
-              <span role="img" aria-label="">
-                👩‍💻
-              </span>{" "}
-              BuiltOn.Dev
-            </span>
-          </a>{" "}
-          <a
-            href="https://codestream.com"
+            href="https://stuff.bpmct.net/CodeStream-5af0929e43724dee9342ef1e2bb07bf4"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -87,7 +87,7 @@ const IndexPage = ({ data }) => (
             </span>
           </a>{" "}
           <a
-            href="https://instagram.com/coding"
+            href="https://stuff.bpmct.net/coding-1a541003e0b2497a9d1a996c2f3a37db"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -95,7 +95,11 @@ const IndexPage = ({ data }) => (
           </a>{" "}
         </p>
         <p>
-          - and doing some other <Link to="/">fun projects</Link>.
+          - and doing some other{" "}
+          <a href="https://stuff.bpmct.net/" target="_blank">
+            fun projects
+          </a>
+          .
         </p>
         <br />
         <hr />
@@ -115,7 +119,7 @@ const IndexPage = ({ data }) => (
             Blog
           </a>
           &nbsp; | &nbsp;
-          <a href="https://ben.services" className="text-muted">
+          <a href="https://stuff.bpmct.net" className="text-muted">
             Portfolio
           </a>
           &nbsp; | &nbsp;
