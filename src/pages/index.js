@@ -18,7 +18,7 @@ const IndexPage = ({ data }) => (
           <Link to="/">Ben Potter</Link>
         </h1>
         <p>
-          Hey! I'm a developer / digital marketer. I love water polo, sufing,
+          Hey! I'm a developer / digital marketer. I love water polo, surfing,
           and technology! 🤽🏽‍♀
         </p>
         <h4>I do all sorts of work, but I'm currently:</h4>
