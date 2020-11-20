@@ -35,7 +35,7 @@ const IndexPage = ({ data }) => (
         <hr />
         <div class="row">
           <div className="col-12 col-md-4 mb-4">
-            <div className="card">
+            <div className="card border-primary">
               <div className="card-header">Coffee &amp; Coder ☕</div>
               <div className="card-body">
                 <div className="d-block d-lg-none d-xl-block">
@@ -55,7 +55,7 @@ const IndexPage = ({ data }) => (
             </div>
           </div>
           <div className="col-12 col-md-4 mb-4">
-            <div className="card">
+            <div className="card border-warning">
               <div className="card-header">Hangout</div>
               <div className="card-body">
                 <div className="d-block d-lg-none d-xl-block">
@@ -75,7 +75,7 @@ const IndexPage = ({ data }) => (
             </div>
           </div>
           <div className="col-12 col-md-4 mb-4">
-            <div className="card">
+            <div className="card border-danger">
               <div className="card-header">@coding</div>
               <div className="card-body">
                 <div className="d-block d-lg-none d-xl-block">
@@ -96,7 +96,6 @@ const IndexPage = ({ data }) => (
           </div>
         </div>
 
-        <br />
         <hr />
       </div>
     </div>
