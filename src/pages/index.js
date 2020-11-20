@@ -10,125 +10,119 @@ const IndexPage = ({ data }) => (
   <Layout>
     <SEO title="Hi, I'm Ben Potter" />
     <div className="row">
-      <div className="col-sm-6 col-md-4">
+      <div className="col-12 col-lg-4">
         <Img fluid={data.image1.childImageSharp.fluid} alt="" />
       </div>
-      <div className="col-sm-6 col-md-8">
+      <div className="col-12 col-lg-8">
         <h1 className="bpmct-title">
           <Link to="/">Ben Potter</Link>
         </h1>
         <p>
           Hey! I'm a developer / digital marketer. I love water polo, surfing,
-          and technology! 🤽🏽‍♀
+          and hacking things together with technology.
         </p>
-        <h4>I do all sorts of work, but I'm currently:</h4>
         <p>
-          - studying at:{" "}
-          <a href="https://rit.edu" target="_blank" rel="noopener noreferrer">
-            <span className="badge badge-warning">
-              <span role="img" aria-label="">
-                🏠
-              </span>{" "}
-              Rochester Institute of Technology
-            </span>
+          I work at{" "}
+          <a href="https://coder.com" target="_blank" rel="noreferrer">
+            Coder
           </a>
+          , we're building the future of software development{" "}
+          <span role="img" aria-label="">
+            ☁️
+          </span>
         </p>
-        <p>
-          - building platforms for:{" "}
-          <a
-            href="https://stuff.bpmct.net/Kuringen-Bryggehotell-9b78d4845625483994fca3b22947f947"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <span className="badge badge-danger">
-              <span role="img" aria-label="">
-                🛌
-              </span>{" "}
-              Kuringen Bryggehotel
-            </span>
-          </a>{" "}
-          <a
-            href="https://stuff.bpmct.net/RIT-Hangout-0ad032304d684b41957ac776d0191e42"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <span className="badge badge-warning">
-              <span role="img" aria-label="">
-                👨‍👩‍👦
-              </span>{" "}
-              RIT Hangout
-            </span>
-          </a>{" "}
-          <a
-            href="https://stuff.bpmct.net/Donut-Delivery-App-d0c4e53dfb824a2b9f8ae00c6b3474c1"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <span className="badge badge-info">
-              <span role="img" aria-label="">
-                🍩
-              </span>{" "}
-              Holey Donuts
-            </span>
-          </a>
-        </p>
-        <p>
-          - doing social media at:{" "}
-          <a
-            href="https://stuff.bpmct.net/CodeStream-5af0929e43724dee9342ef1e2bb07bf4"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <span className="badge badge-primary">
-              <span role="img" aria-label="">
-                💻
-              </span>{" "}
-              CodeStream
-            </span>
-          </a>{" "}
-          <a
-            href="https://stuff.bpmct.net/coding-1a541003e0b2497a9d1a996c2f3a37db"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <span className="badge badge-warning">@coding</span>
-          </a>{" "}
-        </p>
-        <p>
-          - and doing some other{" "}
-          <a href="https://stuff.bpmct.net/" target="_blank">
-            fun projects
-          </a>
-          .
-        </p>
+        <h4>What I'm up to:</h4>
+        <hr />
+        <div class="row">
+          <div className="col-12 col-md-4 mb-4">
+            <div className="card">
+              <div className="card-header">Coffee &amp; Coder ☕</div>
+              <div className="card-body">
+                <div className="d-block d-lg-none d-xl-block">
+                  Monthly Coder live series!
+                </div>
+                <div class="text-right">
+                  <a
+                    href="https://coder.zoom.us/webinar/register/5316058452097/WN_vRpi-_r8SJ-qVvEdTaN1lA"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="btn btn-sm btn-primary"
+                  >
+                    Join one
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-12 col-md-4 mb-4">
+            <div className="card">
+              <div className="card-header">Hangout</div>
+              <div className="card-body">
+                <div className="d-block d-lg-none d-xl-block">
+                  A project with some friends!
+                </div>
+                <div class="text-right">
+                  <a
+                    href="https://hangoutbeta.com"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="btn btn-sm btn-warning"
+                  >
+                    See the app
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-12 col-md-4 mb-4">
+            <div className="card">
+              <div className="card-header">@coding</div>
+              <div className="card-body">
+                <div className="d-block d-lg-none d-xl-block">
+                  My coding Instgram page!
+                </div>
+                <div class="text-right">
+                  <a
+                    href="https://instagram.com/coding"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="btn btn-sm btn-danger"
+                  >
+                    Check it out
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <br />
         <hr />
-
-        <p className="text-right">
-          <a href="https://instagram.com/bpmct" className="text-muted">
-            <FaInstagram />
-          </a>{" "}
-          <a href="https://github.com/bpmct" className="text-muted">
-            <FaGithub />
-          </a>{" "}
-          <a href="https://twitter.com/bpmct" className="text-muted">
-            <FaTwitter />
-          </a>
-          &nbsp; | &nbsp;
-          <a href="https://bpmct.net/blog" className="text-muted">
-            Blog
-          </a>
-          &nbsp; | &nbsp;
-          <a href="https://stuff.bpmct.net" className="text-muted">
-            Portfolio
-          </a>
-          &nbsp; | &nbsp;
-          <Link to="/contact" className="text-muted">
-            Contact
-          </Link>
-        </p>
       </div>
     </div>
+    <p className="text-right">
+      <a href="https://instagram.com/bpmct" className="text-muted">
+        <FaInstagram />
+      </a>{" "}
+      <a href="https://github.com/bpmct" className="text-muted">
+        <FaGithub />
+      </a>{" "}
+      <a href="https://twitter.com/bpmct" className="text-muted">
+        <FaTwitter />
+      </a>
+      &nbsp; | &nbsp;
+      <a href="https://bpmct.net/blog" className="text-muted">
+        Blog
+      </a>
+      {/* &nbsp; | &nbsp;
+      <a href="https://stuff.bpmct.net" className="text-muted">
+        Portfolio
+      </a> */}
+      &nbsp; | &nbsp;
+      <Link to="/contact" className="text-muted">
+        Contact
+      </Link>
+    </p>
   </Layout>
 )
 
