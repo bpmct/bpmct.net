@@ -30,6 +30,7 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop -H 0.0.0.0",
+    "dev-heroku": "echo \"Access your server at http://17819.test.bpmct.net/\" && gatsby develop -H 0.0.0.0 -p 17819",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
